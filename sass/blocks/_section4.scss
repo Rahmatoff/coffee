@@ -1,0 +1,131 @@
+.section4{
+    margin-top: 100%;
+}
+.h2{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center; 
+    color: #83888F;
+    
+}
+
+.howwork{
+
+    
+
+
+        
+
+
+    &__text{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+         text-align: center;
+        color: #FDD6BA;
+        margin: 0;
+        
+    }
+
+    &__item{
+       
+        & h3{
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 32px;
+            text-align: center;
+            color: #333D4B;
+        }
+
+    }
+        
+    &__text1{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #333D4B;
+    }
+        
+     &__link{
+        display: block;
+        width: 217px;
+         font-family: 'Fraunces';
+         font-style: normal;
+         font-weight: 900;
+         font-size: 18px;
+         line-height: 25px;
+         text-align: center;
+         color: #FEFCF7;
+         padding: 15px 31px;
+         background-color: #0E8784;
+         border-radius: 6px;
+         margin: 0 auto;
+         margin-top: 81px;
+         margin-bottom: 149px;
+        }   
+
+
+        
+        
+        
+        
+        
+    }
+    
+    @media only screen and (min-width: 766px){
+        .section4{
+            margin: 0;
+            margin-bottom: 144px;
+        }
+        .h2{
+            text-align: start;
+        }
+        .howwork{
+         
+            width: 689px;
+            display: flex;
+            margin-bottom: 44px;
+
+            
+            &__item{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items:center;
+                width: 223px;
+                height: 371px;
+                &__h3:nth-child(1){
+                    width: 190px;
+                }
+
+                & h3,p{
+                    text-align: start;
+                }
+                & p{
+                    align-self: flex-start;
+                }
+            }
+
+            &__link{
+                text-align: start;
+                margin: 0;
+                
+            }
+
+           
+        }
+
+        
+    }
+            
+    

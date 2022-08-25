@@ -1,0 +1,111 @@
+.collection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 120px;
+  
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+
+    &__img{
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    &__items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__back{
+        background-image: url(../../images/collection.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: contain;
+        width: 375px;
+        height: 72px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+
+    }
+
+    &__title{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #333D4B;
+        
+    }
+    
+    &__text{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #333D4B;
+        margin: 0;
+    }
+
+}
+
+@media only screen and (min-width: 766px){
+    .collection{
+        display: flex;
+        position: relative;
+        &__back{
+            position: absolute;
+            top: -6%;
+            width: 689px;
+            height: 118px;
+            z-index: -1;
+            opacity: 0.4;
+        }
+
+
+        &__list{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 573px;
+            height: 193px;
+        }
+
+        &__img{
+            width: 255px;
+            height: 193px;
+        }
+        &__items{
+            display: inline-block;
+            width: 282px;
+            height: 106px;
+        }
+
+        &__title{
+            margin-top: 0;
+            text-align: start;
+            
+        }
+
+        &__text{
+            text-align: start;
+        }
+    }
+
+}
+     
+
+
+   
